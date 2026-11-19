@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TaskBoard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mening tasklarim</h1>
+    <a href="https://vuejs.org" target="_blank">Vue hujjatlari</a>
+    <h2>Bugungi tasklar</h2>
+    <p>Bu oddiy <strong>muhim</strong> va <em>urg'uli</em> so'zli paragraf.</p>
+    <p>Holat: <span class="badge">Bajarilmoqda</span></p>
+    <div class="card">
+      <h3>Hisobot</h3>
+      <p>Juma kunigacha topshirish.</p>
+    </div>
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <ol>
+      <li>Loyihani och</li>
+      <li>Kodni yoz</li>
+      <li>Commit qil</li>
+    </ol>
+
+    <a href="https://github.com/umidjon">GitHub profilim</a>
+    <a href="about.html">Men haqimda</a>
+    <a href="#tasks">Tasklarga o'tish</a>
+    <a href="https://vuejs.org" target="_blank" rel="noopener"
+      >Vue (yangi tabda)</a
+    >
+
+    <img src="images/logo.png" alt="TaskBoard logotipi" width="120" />
+
+    <br />
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Holat</th>
+          <th>Muddati</th>
+        </tr>
+        <tr>
+          <td colspan="3" align="center">Joriy vazifalar</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML yozish</td>
+          <td>Bajarilmoqda</td>
+          <td>2024-06-15</td>
+        </tr>
+        <tr>
+          <td>CSS dizayn</td>
+          <td>Bajarildi</td>
+          <td>2024-06-10</td>
+        </tr>
+        <tr>
+          <td>JavaScript funksiyalar</td>
+          <td>Bajarilmoqda</td>
+          <td>2024-06-20</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br />
+    <br />
+    <hr />
+
+    <form>
+      <label for="title">Sarlavha: </label>
+      <input
+        id="title"
+        name="title"
+        type="text"
+        placeholder="Task sarlavhasi"
+        required
+      />
+
+      <label for="priority">Muhimlik: </label>
+      <select id="priority" name="priority">
+        <option value="low">Past</option>
+        <option value="medium" selected>O'rtacha</option>
+        <option value="high">Yuqori</option>
+      </select>
+
+      <label for="due-date">Muddati: </label>
+      <input id="due-date" name="due-date" type="date" required />
+
+      <label for="note">Izoh: </label>
+      <textarea
+        id="note"
+        name="note"
+        placeholder="Task haqidagi izoh"
+        rows="3"
+      ></textarea>
+
+      <label> <input type="checkbox" name="urgent" /> Shoshilinch </label>
+
+      <button type="submit">Task qo'shish</button>
+      <button type="reset">Tozalash</button>
+    </form>
+  </body>
+</html>

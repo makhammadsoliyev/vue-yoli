@@ -2,18 +2,20 @@
 
 > Bu fayl har mashg'ulot oxirida yangilanadi ("sessiyani yop"). Qisqa bo'lsin: bir ekrandan oshmasin.
 
-- **Yangilangan:** YYYY-MM-DD
+- **Yangilangan:** 2026-11-19
 - **Hafta / kun:** 1-hafta, 1-kun (HTML: sahifa skeleti, teglar, forma, jadval)
 - **Papka:** `01-taskboard-html`
-- **Holat:** boshlanmagan
+- **Holat:** boshlandi (2026-11-19)
 
 ## Oxirgi mashg'ulotda nima qilindi
 
-- Hali hech narsa.
+- "Tayyorgarlik" bo'limidagi dasturlar o'rnatildi.
+- `STATE.md` va `JOURNAL.md` `docs/` papkasiga ko'chirildi.
+- `01-taskboard-html/index.html` yaratilgan (hozircha bo'sh).
 
 ## Keyingi qadam
 
-- 1-kun: "Tayyorgarlik" bo'limidagi dasturlarni o'rnatish, keyin 1-mashq.
+- 1-kun, 1-mashq (`d01-t1`): `index.html` ni yozish. Mashq matni o'quv saytida.
 
 ## Tugamagan ish
 
