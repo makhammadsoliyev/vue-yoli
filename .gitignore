@@ -1,0 +1,52 @@
+# ---------------------------------------------------------------
+# vue-yoli: Git e'tibor bermaydigan fayl va papkalar
+# Qoida: qayta yaratiladigan, maxfiy yoki faqat shu kompyuterga
+# tegishli narsalar commit qilinmaydi.
+# ---------------------------------------------------------------
+
+# npm paketlari: "npm install" qayta yaratadi
+node_modules/
+
+# Build natijalari: "npm run build" qayta yaratadi
+dist/
+dist-ssr/
+build/
+
+# Vite va TypeScript keshlari
+.vite/
+*.tsbuildinfo
+.eslintcache
+
+# Test natijalari (30-kun, Vitest)
+coverage/
+
+# Loglar
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Maxfiy va lokal sozlamalar
+# (.env.development va .env.production commit qilinadi: ularda maxfiy narsa bo'lmaydi)
+.env.local
+.env.*.local
+*.local
+
+# Muharrir fayllari
+# (.vscode/extensions.json commit qilinadi: create-vue tavsiya etilgan kengaytmalarni shu yerga yozadi)
+**/.vscode/*
+!**/.vscode/extensions.json
+.idea/
+*.sw?
+
+# Operatsion tizim fayllari
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Vaqtinchalik fayllar
+*.tmp
+*.bak
+~$*
